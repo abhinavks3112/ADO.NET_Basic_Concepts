@@ -33,6 +33,24 @@ namespace ADODOTNET_Concepts_WebApplication
         protected global::System.Web.UI.WebControls.Button btnGetDataFromDB;
 
         /// <summary>
+        /// btnShowRowStateChanges control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnShowRowStateChanges;
+
+        /// <summary>
+        /// btnUndo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUndo;
+
+        /// <summary>
         /// gvStudents control.
         /// </summary>
         /// <remarks>
