@@ -37,7 +37,6 @@ namespace ADODOTNET_Concepts_WebApplication
         {
             StudentDataSet.StudentsDataTable studentsDataTable = new StudentDataSet.StudentsDataTable();
 
-
             studentsDataTable = (StudentDataSet.StudentsDataTable)Session["DATATABLE"];
             if (!String.IsNullOrEmpty(txtTextToSearch.Text))
             {

@@ -113,6 +113,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="DataSetWebForm.aspx" />
+    <Content Include="Data\Data.xml" />
     <Content Include="Default.aspx" />
     <Content Include="DisconnectedDataAccessWebForm.aspx" />
     <Content Include="favicon.ico" />
@@ -127,6 +128,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="SqlBulkCopyTableToTableWebForm.aspx" />
+    <Content Include="SqlBulkCopyWebForm.aspx" />
     <Content Include="SqlCommandBuilderWebForm.aspx" />
     <Content Include="SqlDataReaderNextResultWebForm.aspx" />
     <Content Include="SqlDataReaderWebForm.aspx" />
@@ -206,6 +209,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="SqlBulkCopyTableToTableWebForm.aspx.cs">
+      <DependentUpon>SqlBulkCopyTableToTableWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SqlBulkCopyTableToTableWebForm.aspx.designer.cs">
+      <DependentUpon>SqlBulkCopyTableToTableWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SqlBulkCopyWebForm.aspx.cs">
+      <DependentUpon>SqlBulkCopyWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SqlBulkCopyWebForm.aspx.designer.cs">
+      <DependentUpon>SqlBulkCopyWebForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="SqlCommandBuilderWebForm.aspx.cs">
       <DependentUpon>SqlCommandBuilderWebForm.aspx</DependentUpon>
