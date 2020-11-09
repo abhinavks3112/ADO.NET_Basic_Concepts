@@ -163,6 +163,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="StronglyTypedDataSetWebForm.aspx" />
+    <Content Include="TransactionsADOWebForm.aspx" />
     <Content Include="UntypedDataSetWebForm.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -266,6 +267,13 @@
     </Compile>
     <Compile Include="StronglyTypedDataSetWebForm.aspx.designer.cs">
       <DependentUpon>StronglyTypedDataSetWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionsADOWebForm.aspx.cs">
+      <DependentUpon>TransactionsADOWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TransactionsADOWebForm.aspx.designer.cs">
+      <DependentUpon>TransactionsADOWebForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="UntypedDataSetWebForm.aspx.cs">
       <DependentUpon>UntypedDataSetWebForm.aspx</DependentUpon>
